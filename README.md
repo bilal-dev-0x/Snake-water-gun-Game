@@ -1,3 +1,9 @@
+This project is licensed under the MIT License. See the LICENSE file for details
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Repo Size](https://img.shields.io/github/repo-size/bilal-dev-0x/Snake-water-gun-Game)
+
 # 🐍 Snake Water Gun Game
 
 A fun command-line Python game inspired by the classic "Rock Paper Scissors" concept — but with a twist! Choose between Snake 🐍, Water 💧, or Gun 🔫 and see if you can beat the computer.
@@ -23,3 +29,5 @@ The rules:
 
 BSCS Student at Riphah International University Faisalabad Campus
 Passionate about Python automation and building fun projects!
+```
+
