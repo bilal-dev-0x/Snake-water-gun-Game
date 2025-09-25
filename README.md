@@ -1,3 +1,5 @@
+![Logo](logo.png)
+
 This project is licensed under the MIT License. See the LICENSE file for details
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -27,7 +29,7 @@ The rules:
 -1 for Water
 0 for Gun
 
-BSCS Student at Riphah International University Faisalabad Campus
-Passionate about Python automation and building fun projects!
 ```
 
+BSCS Student at Riphah International University Faisalabad Campus
+Passionate about Python automation and building fun projects!
