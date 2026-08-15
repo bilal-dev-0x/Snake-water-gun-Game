@@ -1,33 +1,32 @@
 <p align="center">
-  <img src="logo.png" width="220" alt="Snake Water Gun Game logo" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,45:7C3AED,100:0EA5E9&height=170&section=header&text=Snake%20Water%20Gun&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=A%20clean%20Python%20CLI%20logic%20game%20based%20on%20simple%20winning%20rules&descSize=14&descAlignY=56" alt="Snake Water Gun banner" />
 </p>
-
-<h1 align="center">Snake Water Gun Game</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Type-CLI%20Game-2563EB?style=for-the-badge" alt="CLI Game" />
-  <img src="https://img.shields.io/badge/Logic-Conditionals%20%2B%20Dictionaries-7C3AED?style=for-the-badge" alt="Logic" />
-  <img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge" alt="MIT License" />
+  <img src="https://img.shields.io/badge/Focus-Rule%20Based%20Logic-7C3AED?style=for-the-badge" alt="Rule based logic" />
+  <img src="https://img.shields.io/badge/Level-Beginner-22C55E?style=for-the-badge" alt="Beginner" />
+  <img src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge" alt="MIT License" />
 </p>
 
 ---
 
 ## Overview
 
-A beginner-friendly Python command-line game based on the classic Snake, Water, Gun rules. The player chooses one option, the computer randomly chooses another, and the game decides the result.
+Snake Water Gun is a beginner-friendly Python command-line game inspired by Rock Paper Scissors. The player chooses one option, the computer chooses randomly, and the result is decided through a simple rule table.
 
-This project is a clean practice exercise for dictionaries, tuples, conditionals, input handling, and simple game logic.
+The project is intentionally small, but it shows clean beginner logic with dictionaries, tuples, random choices, conditionals, and input validation.
 
 ---
 
-## Rules
+## Game Rules
 
-| Choice | Beats |
-|---|---|
-| Snake | Water |
-| Water | Gun |
-| Gun | Snake |
+| Choice | Beats | Loses To |
+|---|---|---|
+| Snake | Water | Gun |
+| Water | Gun | Snake |
+| Gun | Snake | Water |
 
 If both choices are the same, the match is a draw.
 
@@ -35,7 +34,7 @@ If both choices are the same, the match is a draw.
 
 ## How To Play
 
-| Input | Choice |
+| Input | Meaning |
 |---|---|
 | `s` | Snake |
 | `w` | Water |
@@ -48,7 +47,6 @@ If both choices are the same, the match is a draw.
 ```text
 Snake-water-gun-Game/
 |-- Snake-water-gun.py
-|-- logo.png
 |-- LICENSE
 `-- README.md
 ```
@@ -81,24 +79,31 @@ You win!
 
 ## Concepts Practiced
 
-- `random.choice()`
-- Dictionaries
-- Tuples
-- Conditional logic
-- User input handling
-- Simple rule-based game design
+| Concept | Practice |
+|---|---|
+| Randomization | Computer choice with `random.choice()` |
+| Dictionaries | Mapping shortcut input to full choice names |
+| Tuples | Storing winning pairs cleanly |
+| Conditionals | Deciding win, lose, or draw |
+| Input validation | Handling invalid user choices |
+| Game rules | Representing simple logic in code |
 
 ---
 
 ## Future Improvements
 
-- Add best-of-3 rounds.
 - Add score tracking.
-- Add replay without restarting.
-- Add a small GUI version.
+- Add best-of-3 mode.
+- Add replay without restarting the script.
+- Add difficulty or streak mode.
+- Convert the game into a GUI version.
 
 ---
 
 <p align="center">
-  <b>A compact Python logic game with clean rules and simple command-line gameplay.</b>
+  <b>A small Python logic game with clean rules, readable code, and beginner-friendly structure.</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:7C3AED,100:111827&height=95&section=footer" alt="Footer wave" />
 </p>
